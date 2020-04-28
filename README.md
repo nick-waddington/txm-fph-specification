@@ -1,4 +1,4 @@
-# Technical Documentation - Vat Service Guide
+# Technical Documentation - Fraud Prevention Guide
 
 ## Getting started
 
