@@ -1,6 +1,6 @@
 import uk.gov.hmrc.sbtdistributables.SbtDistributablesPlugin.publishingSettings
 
-val appName = "vat-service-guide"
+val appName = "txm-fph-specification"
 
 lazy val microservice = Project(appName, file("."))
   .enablePlugins(play.sbt.PlayScala, SbtAutoBuildPlugin, SbtGitVersioning, SbtDistributablesPlugin, SbtArtifactory)
