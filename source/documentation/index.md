@@ -1,7 +1,7 @@
 ---
-title: Fraud Prevention Service Guide
+title: Fraud Prevention
 weight: 1
-description: 
+description:
 ---
 
 # Fraud prevention

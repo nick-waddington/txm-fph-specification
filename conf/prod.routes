@@ -1,4 +1,4 @@
-->      /                                                health.Routes
-GET     /guides/fraud-prevention-service-guide           controllers.Default.redirect(to = "/guides/fraud-prevention-service-guide/")
-GET     /guides/fraud-prevention-service-guide/          controllers.Assets.at(path="/public", file="index.html")
-GET     /guides/fraud-prevention-service-guide/*file     controllers.Assets.at(path="/public", file)
+->      /                                  health.Routes
+GET     /guides/fraud-prevention           controllers.Default.redirect(to = "/guides/fraud-prevention/")
+GET     /guides/fraud-prevention/          controllers.Assets.at(path="/public", file="index.html")
+GET     /guides/fraud-prevention/*file     controllers.Assets.at(path="/public", file)
